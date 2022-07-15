@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useParams } from 'react-router-dom';
 import carsInfo from '../carsInfo';
+import { Helmet } from 'react-helmet-async';
 function California() {
   const {id} = useParams();
   let car = carsInfo.cars.filter(item => item.id === id)[0]
@@ -52,8 +53,13 @@ function California() {
     setWordData(wordSlider)
   }
   return (
-    <div className="container">
 
+    <div className="container">
+    <Helmet>
+      <title>{car.id}</title>
+      <meta name="description" content={car.description}/>
+      <link rel="canonical" href={`/landing/${car.id}`}/>
+      </Helmet>
       <h2>{car.name}:&nbsp;&nbsp;{car.id}</h2>
       <div className="main">
       <img src={wordData.value} className='main_img'/> 
