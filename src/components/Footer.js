@@ -38,7 +38,7 @@ function Footer() {
         <hr />
         <div className="row">
           <p className="col-sm">
-            &copy;{new Date().getFullYear()} THICC MEMES | All rights reserved |
+            &copy;{new Date().getFullYear()} S87 | All rights reserved |
             Terms Of Service | Privacy
           </p>
         </div>
