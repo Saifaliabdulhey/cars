@@ -79,6 +79,7 @@ function California() {
           <li><strong>Mileage: &nbsp;&nbsp;</strong>{car.mileage}</li>
           <li><strong>Location:&nbsp;&nbsp;</strong>{car.location}</li>
           <li><strong>Color:&nbsp;&nbsp;</strong>{car.color}</li>
+          <li><strong>Lot:&nbsp;&nbsp;</strong>{car.lot}</li>
           <li><strong>Year:&nbsp;&nbsp;</strong>{car.year}</li>
         </div>
       </div>

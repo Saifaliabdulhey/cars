@@ -31,6 +31,7 @@ export  const carsInfo = {
             mileage: 'none',
             location: 'Hanover - West',
             color: 'White',
+            lot:31511873,
             year: 2020
         },
 
