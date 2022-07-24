@@ -74,13 +74,23 @@ function California() {
       </div>
       <hr></hr>
       <div className='description'>
-        <p>{car.description}</p>
+      <div className='spec-info'>
+          <li><strong>Primary damage: &nbsp;&nbsp;</strong>{car.primary_damage}</li>
+          <li><strong>Secondary damage:&nbsp;&nbsp;</strong>{car.secondary_damage}</li>
+          <li><strong>Odometer:&nbsp;&nbsp;</strong>{car.odometer}</li>
+          <li><strong>Start code:&nbsp;&nbsp;</strong>{car.start_code}</li>
+          <li><strong>Key:&nbsp;&nbsp;</strong>{car.key}</li>
+          <li><strong>Fuel Type:&nbsp;&nbsp;</strong>{car.fuel_type}</li>
+          <li><strong>Transmission:&nbsp;&nbsp;</strong>{car.transmission}</li>
+        </div>
         <div className='spec-info'>
           <li><strong>Mileage: &nbsp;&nbsp;</strong>{car.mileage}</li>
           <li><strong>Location:&nbsp;&nbsp;</strong>{car.location}</li>
           <li><strong>Color:&nbsp;&nbsp;</strong>{car.color}</li>
           <li><strong>Lot:&nbsp;&nbsp;</strong>{car.lot}</li>
           <li><strong>Year:&nbsp;&nbsp;</strong>{car.year}</li>
+          <li><strong>Engine:&nbsp;&nbsp;</strong>{car.engine}</li>
+          <li><strong>Cylinders:&nbsp;&nbsp;</strong>{car.cylinders}</li>
         </div>
       </div>
 
