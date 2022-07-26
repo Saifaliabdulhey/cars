@@ -60,7 +60,7 @@ function California() {
         <meta name="description" content={car.description} />
         <link rel="canonical" href={`/landing/${car.id}`} />
       </Helmet>
-      <h2>{car.name}:&nbsp;&nbsp;{car.id}</h2>
+      <h2>{car.name}:&nbsp;&nbsp;VIN:&nbsp;{car.id}</h2>
       <div className="main">
         <img src={wordData.value} className='main_img' />
         <div className='flex_row'>
